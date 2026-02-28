@@ -115,5 +115,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
-# duplicate INSTALLED_APPS block removed; add 'polls.apps.PollsConfig' to the
-# original INSTALLED_APPS list above once the polls app has been created.
+INSTALLED_APP= [
+    "",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+]
